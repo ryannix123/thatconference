@@ -2,7 +2,7 @@ Hi, THAT Campers!
 <?php echo "Hello!"; //, World!"; ?>
 
 So, how is the conference going?
-<?php echo "Swimmingly!";
+<?php echo "It's great!!!";
 /* When responding with one of a number of answers, here are some other options:
 * Floating along
 * Fin-tastic
