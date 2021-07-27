@@ -1,5 +1,5 @@
 Hi, Campers!
-<?php echo "Hello"; //, World!"; ?>
+<?php echo "Hello!"; //, World!"; ?>
 
 So, how is the conference going?
 <?php echo "Swimmingly!";
