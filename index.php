@@ -1,4 +1,4 @@
-Hi, Campers!
+Hi, THAT Campers!
 <?php echo "Hello!"; //, World!"; ?>
 
 So, how is the conference going?
