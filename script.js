@@ -4,7 +4,7 @@ const quizData = [
         a: "Two hours before the THAT Conference started",
         b: "What's Kubernetes?",
         c: "2015",
-        d: "2018, after Amazon and Azure said it useful.",
+        d: "2018, after Amazon and Azure said 'Kube is cool'.",
         correct: "c",
     },
     {
