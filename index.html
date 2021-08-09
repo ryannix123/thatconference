@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
-	<title>THAT Conference 2021!!</title>
-	<style>
-		html {
-			height:100%;
-		}
-		body {
-			background-color:#FFF;
-			margin:0;
-			height:100%;
-		}
-	</style>
-	<!-- copy these lines to your document head: -->
-
-	<meta name="viewport" content="user-scalable=yes, width=600" />
-
-	<!-- end copy -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
   </head>
   <body>
-	<!-- copy these lines to your document: -->
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer">
+            <label for="a" id="a_text">Question</label>
+          </li>
 
-	<div id="ocpthat_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="ocpthat.hyperesources/ocpthat_hype_generated_script.js?24839"></script>
-	</div>
+          <li>
+            <input type="radio" name="answer" id="b" class="answer">
+            <label for="b" id="b_text">Question</label>
+          </li>
 
-	<!-- end copy -->
-	
+          <li>
+            <input type="radio" name="answer" id="c" class="answer">
+            <label for="c" id="c_text">Question</label>
+          </li>
 
-
-	<!-- text content for search engines: -->
-
-	<div style="display:none" aria-hidden=true>
-
-		<div></div>
-		<div>Hello, THAT Conference!!!</div>
-
-	</div>
-
-	<!-- end text content: -->
-
+          <li>
+            <input type="radio" name="answer" id="d" class="answer">
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
