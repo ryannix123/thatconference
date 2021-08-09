@@ -1,5 +1,13 @@
 const quizData = [
     {
+        question: "When did Red Hat start using Kubernetes in OpenShift?",
+        a: "Two hours before the THAT Conference started",
+        b: "What's Kubernetes?",
+        c: "2015",
+        d: "2018, after Amazon and Azure said it useful.",
+        correct: "c",
+    },
+    {
         question: "Which language runs in a web browser?",
         a: "Java",
         b: "C",
