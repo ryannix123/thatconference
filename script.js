@@ -27,7 +27,7 @@ const quizData = [
         question: "What does HTML stand for?",
         a: "Hypertext Markup Language",
         b: "Hypertext Markdown Language",
-        c: "Hyperloop Machine Language",
+        c: "Hyperfast Machine Language",
         d: "Helicopters Trains Motorboats Lamborginis",
         correct: "a",
     },
